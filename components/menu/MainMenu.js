@@ -24,27 +24,39 @@ export default function MainMenu() {
           id="main-menu"
         >
           <AnimatedMenuItem
-            id="work-page-link"
+            id="home-page-link"
             href="/"
-            text="work"
-            color="#000"
-            variant={columns ? "h1" : "h2"}
+            text="home"
+            changedColor="#000"
+            color="#FF9999"
+            variant={columns ? "h2" : "h2"}
             height="10px"
           />
           <AnimatedMenuItem
             id="info-page-link"
             href="/info"
             text="info"
-            color="#000"
-            variant={columns ? "h1" : "h2"}
+            changedColor="#000"
+            color="#FF9999"
+            variant={columns ? "h2" : "h2"}
             height="10px"
           />
           <AnimatedMenuItem
-            id="lab-page-link"
+            id="charcoal-page-link"
             href="/lab"
-            text="lab"
-            color="#000"
-            variant={columns ? "h1" : "h2"}
+            text="charcoal"
+            changedColor="#000"
+            color="#FF9999"
+            variant={columns ? "h2" : "h2"}
+            height="10px"
+          />
+          <AnimatedMenuItem
+            id="photos-page-link"
+            href="/photos"
+            text="photos"
+            changedColor="#000"
+            color="#FF9999"
+            variant={columns ? "h2" : "h2"}
             height="10px"
           />
         </Box>

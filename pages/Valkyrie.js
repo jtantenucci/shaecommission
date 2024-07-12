@@ -45,7 +45,7 @@ export default function Valkyrie() {
         <PageText
           text="Valkyrie Investments is a alternative asset management firm based in Tennessee, 
                 focusing on the emerging cryptocurrency sector. I was assigned to refresh Valkyrie's identity, 
-                with an emphasis on legibility in digital spaces."
+                with an emphasis on legibility in digital spaces  "
         />
         <PageSubtext
           paddingTop="0px"

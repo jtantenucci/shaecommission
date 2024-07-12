@@ -1,4 +1,4 @@
-name: Jake Portfolio Tests
+name: Shae Portfolio Tests
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests
         run: |
-          bundle exec rspec spec/features/smoke_tests/jakeportfolio/jake_portfolio_spec.rb
+          bundle exec rspec spec/features/smoke_tests/shaecommission/shae_portfolio_spec.rb
 
       - name: confirm name
         run: echo "${{ github.event.inputs.name }} tests complete"

@@ -20,7 +20,7 @@ export default function Lab() {
     <Trail2>
     <Box sx={{ backgroundColor: 'primary.main' }}>
       <HeadComponent title="lab - Jake Lamothe" />
-      { columns ? <MiniMenu color="#fff" changedColor="#fff"/> : <Navigation lab={true} /> }
+      { columns ? <MiniMenu color="#fff" changedColor="#FF9999"/> : <Navigation lab={true} /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
       >
       <PageHeader color="#fff" title="lab" />

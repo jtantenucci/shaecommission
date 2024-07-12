@@ -14,7 +14,7 @@ export default function PageFooter({ color, changedColor }) {
             <Box container sx={{ marginLeft: "auto", marginRight: "auto", maxWidth: "90vw", display: "flex", flexDirection: "row", paddingTop: columns ? "100px" : "25px", paddingBottom: columns ? "50px" : "10px", justifyContent: "space-between" }}>
                 <FooterMenu color={color} changedColor={changedColor} />
                 <Typography color={color} sx={{ justifySelf: "end" }} variant={columns ? "h4" : "h5"}>
-                    jake lamothe 2022©
+                    shae overlieden 2024©
                 </Typography>
             </Box>
         </>

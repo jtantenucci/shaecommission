@@ -23,7 +23,7 @@ export default function FooterMenu({ color, changedColor }) {
         <AnimatedMenuItem
           id="instagram-link"
           useMui="false"
-          href="https://www.instagram.com/la.brains/"
+          href="https://www.instagram.com/shaeoverlieden/"
           text="instagram"
           color={color}
           changedColor={changedColor}
@@ -37,7 +37,7 @@ export default function FooterMenu({ color, changedColor }) {
         <AnimatedMenuItem
           id="linkedin-link"
           useMui="false"
-          href="https://www.linkedin.com/in/jakelamothe/"
+          href=""
           text="linkedin"
           color={color}
           changedColor={changedColor}
@@ -51,7 +51,7 @@ export default function FooterMenu({ color, changedColor }) {
         <AnimatedMenuItem
           id="email-link"
           useMui="false"
-          href="mailto:jake.lamothe@gmail.com"
+          href="mailto:shaeschornagel@gmail.com"
           text="email"
           color={color}
           changedColor={changedColor}
