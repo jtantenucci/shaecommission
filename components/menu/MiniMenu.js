@@ -21,15 +21,15 @@ export default function MiniMenu({ color, changedColor }) {
           id="mini-menu"
         >
           <AnimatedMenuItem
-            id="work-page-minilink"
+            id="home-page-minilink"
             href="/"
-            text="work"
+            text="home"
             variant="h3"
             color={color}
             changedColor={changedColor}
             sx={{
-              paddingRight: "10px",
               paddingLeft: "10px",
+              paddingRight: "10px",
             }}
           />
           <AnimatedMenuItem
@@ -45,9 +45,21 @@ export default function MiniMenu({ color, changedColor }) {
             }}
           />
           <AnimatedMenuItem
-            id="lab-page-minilink"
+            id="charcoal-page-minilink"
             href="/lab"
-            text="lab"
+            text="charcoal"
+            variant="h3"
+            color={color}
+            changedColor={changedColor}
+            sx={{
+              paddingRight: "10px",
+              paddingLeft: "10px",
+            }}
+          />
+          <AnimatedMenuItem
+            id="photos-page-minilink"
+            href="/photos"
+            text="photos"
             variant="h3"
             color={color}
             changedColor={changedColor}

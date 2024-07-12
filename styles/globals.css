@@ -46,6 +46,13 @@ a {
 }
 
 @font-face {
+  font-family: "georgia bold italic";
+  src: url("/fonts/georgiaz.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "TWKLausanne-400";
   src: url("/fonts/TWKLausanne-400.ttf");
   font-style: normal;

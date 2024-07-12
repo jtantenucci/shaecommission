@@ -44,6 +44,8 @@ let theme = createTheme ({
   },
     typography: {
       fontFamily: [
+        'georgia',
+        'georgia bold italic',
         'TWKLausanne-300',
         'TWKLausanne-400',
         'TWKLausanne-700',
@@ -55,14 +57,20 @@ let theme = createTheme ({
         '"Segoe UI Symbol"',
       ].join(','),
       h1: {
-        fontFamily: 'TWKLausanne-400',
+        fontFamily: 'georgia bold italic',
         fontSize: '12rem',
         letterSpacing: "-5px"
       },
       h2: {
-        fontFamily: 'TWKLausanne-400',
-        fontSize: '9rem',
+        fontFamily: 'georgia bold italic',
+        fontSize: '7rem',
         letterSpacing: "-5px"
+      },
+      h3: {
+        fontFamily: 'georgia bold italic'
+      },
+      h4: {
+        fontFamily: 'georgia bold italic'
       },
       h5: {
         fontSize: '1.75rem'

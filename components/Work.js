@@ -22,10 +22,7 @@ export default function Work() {
     { columns ? <MainMenu /> : <Navigation /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
         <Typography variant="h4" sx={{ justifySelf: "start" }}>
-          selected work
-        </Typography>
-        <Typography variant="h4" sx={{ justifySelf: "start" }}>
-          2021→2022
+           work
         </Typography>
       </Box>
       <ImageList sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", overflow: "hidden", backgroundClip: "border-box" }} cols={columns ? 2 : 1} gap={25}>

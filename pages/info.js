@@ -25,51 +25,56 @@ export default function Info() {
   return (
     <>
       <Trail2>
-      <HeadComponent title="info - Jake Lamothe" />      
-      { columns ? <MiniMenu color="#000" /> : <Navigation /> }
-      <Box container sx={{ maxWidth: columns ? "75vw" : "90vw", marginLeft: "auto", marginRight: "auto", paddingTop: columns ? "50px" : "0px" }}>
-        <Typography fontFamily="TWKLausanne-300" fontSize={ columns ? 75 : 40 }>
-          A designer with experience in digital, motion and identity design. I
-          find ways to work concept-driven visuals into valuable brand
-          experiences and long-lasting connections. I am always open to new
-          opportunities, so please feel free to say hi!
-        </Typography>
-        <Typography
-          sx={{ paddingTop: "50px" }}
-          fontFamily="TWKLausanne-300"
-          fontSize={columns ? 75 : 40}
+        <HeadComponent title="info - shae overlieden" />
+        {columns ? <MiniMenu color="#000" changedColor="#FF9999"/> : <Navigation />}
+        <Box
+          container
+          sx={{
+            maxWidth: columns ? "75vw" : "90vw",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: columns ? "50px" : "0px",
+          }}
         >
-          Currently working as an Art Director
-        </Typography>
+          <Typography fontFamily="georgia" fontSize={columns ? 60 : 40}>
+            artist-for-hire turned psychology student 🌻 
+          </Typography>
+          <Typography
+            sx={{ paddingTop: "50px" }}
+            fontFamily="georgia"
+            fontSize={columns ? 60 : 40}
+          >
+            charcoal / watercolor / photography
+          </Typography>
+          <Typography
+            sx={{ paddingTop: "50px" }}
+            fontFamily="georgia"
+            fontSize={columns ? 60 : 40}
+          >
+            email for business inquiries
+          </Typography>
+        </Box>
+        <Box
+          container
+          sx={{
+            maxWidth: columns ? "75vw" : "90vw",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: "50px",
+            paddingBottom: "50px",
+          }}
+        >
           <AnimatedMenuItem
             id="ludwig-page-link"
             color="#000"
             useMui="false"
-            sx={{ fontSize: columns ? 75 : 40 }}
-            fontFamily="TWKLausanne-300"
-            href="http://www.ludwigplus.com"
-            text="@LUDWIG+."
+            sx={{ fontSize: columns ? 60 : 40 }}
+            fontFamily="georgia"
+            href="mailto:shaeschornagel@gmail.com"
+            text="email link"
           />
-      </Box>
-      <Box container sx={{ maxWidth: columns ? "75vw" : "90vw", marginLeft: "auto", marginRight: "auto", paddingTop: "50px", paddingBottom: "50px" }}>
-        <AnimatedDownload
-          color="#000"
-          useMui="false"
-          onClick={onDownload}
-          sx={{
-            "&:hover": {
-              cursor: "pointer",
-              },
-            alignContent: "center",
-            fontSize: columns ? 75 : 40, 
-          }}
-          fontFamily="TWKLausanne-300"
-          height="3px"
-        >
-          Resume<FileDownloadIcon sx={{ paddingTop: columns ? "30px" : "15px"}} fontSize="inherit"/>
-        </AnimatedDownload>
-      </Box>
-      <PageFooter color="#000" />
+        </Box>
+        <PageFooter color="#000" />
       </Trail2>
     </>
   );

@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Jake LaMothe</title>
-        <meta name="description" content="art direction/graphic design" />
-        <link rel="icon" href="/Scribble.ico" />
+        <title>shae overlieden</title>
+        <meta name="description" content="fine artist/art direction/photographer" />
+        <link rel="icon" href="/cat.ico" />
       </Head>
       <main>
           <div>
