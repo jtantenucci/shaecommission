@@ -1,0 +1,42 @@
+name: Jake Portfolio Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main  
+  workflow_dispatch:
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'run name'
+        # Default value if no value is explicitly provided
+        default: 'smoke'
+        # Input has to be provided for the workflow to run
+        required: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set up Ruby 2.7.3
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.3
+
+      - name: Build
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Run tests
+        run: |
+          bundle exec rspec spec/features/smoke_tests/jakeportfolio/jake_portfolio_spec.rb
+
+      - name: confirm name
+        run: echo "${{ github.event.inputs.name }} tests complete"

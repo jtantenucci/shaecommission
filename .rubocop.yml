@@ -1,0 +1,37 @@
+# Metrics Cops
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context', 'Module']
+  Enabled: False
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/ClassLength:
+  Max: 60
+
+Metrics/AbcSize:
+  Max: 40
+  Enabled: False
+
+Metrics/CyclomaticComplexity:
+  Enabled: False
+
+Metrics/PerceivedComplexity:
+  Enabled: False
+
+Style/FrozenStringLiteralComment:
+  Enabled: False
+
+Layout/LineLength:
+  Max: 200
+
+GlobalVars:
+  AllowedVariables:
+    - $compare_page_coverages
+    - $review_page_token
+    - $quote_rsps_state
