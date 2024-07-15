@@ -25,8 +25,9 @@ export default function Info() {
   return (
     <>
       <Trail2>
+      <Box sx={{ backgroundColor: '#ff9999' }}>
         <HeadComponent title="info - shae overlieden" />
-        {columns ? <MiniMenu color="#000" changedColor="#FF9999"/> : <Navigation />}
+        {columns ? <MiniMenu color="#000" changedColor="#FFF"/> : <Navigation />}
         <Box
           container
           sx={{
@@ -36,19 +37,19 @@ export default function Info() {
             paddingTop: columns ? "50px" : "0px",
           }}
         >
-          <Typography fontFamily="georgia" fontSize={columns ? 60 : 40}>
+          <Typography fontFamily="CenturySchoolbook" fontSize={columns ? 60 : 40}>
             artist-for-hire turned psychology student 🌻 
           </Typography>
           <Typography
             sx={{ paddingTop: "50px" }}
-            fontFamily="georgia"
+            fontFamily="CenturySchoolbook"
             fontSize={columns ? 60 : 40}
           >
             charcoal / watercolor / photography
           </Typography>
           <Typography
             sx={{ paddingTop: "50px" }}
-            fontFamily="georgia"
+            fontFamily="CenturySchoolbook"
             fontSize={columns ? 60 : 40}
           >
             email for business inquiries
@@ -65,16 +66,17 @@ export default function Info() {
           }}
         >
           <AnimatedMenuItem
-            id="ludwig-page-link"
+            id="email-page-link"
             color="#000"
             useMui="false"
             sx={{ fontSize: columns ? 60 : 40 }}
-            fontFamily="georgia"
+            fontFamily="CenturySchoolbook"
             href="mailto:shaeschornagel@gmail.com"
             text="email link"
           />
         </Box>
         <PageFooter color="#000" />
+      </Box>
       </Trail2>
     </>
   );

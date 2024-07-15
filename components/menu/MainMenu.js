@@ -43,7 +43,7 @@ export default function MainMenu() {
           />
           <AnimatedMenuItem
             id="charcoal-page-link"
-            href="/lab"
+            href="/charcoal"
             text="charcoal"
             changedColor="#000"
             color="#FF9999"

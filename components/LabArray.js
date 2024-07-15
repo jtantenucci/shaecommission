@@ -1,18 +1,5 @@
 import Lab1 from "public/Lab1.png"
 import Lab2 from "public/Lab2.jpeg"
-import MintLab from 'public/mint-ani.gif'
-import NhLab from 'public/nh-ani.gif'
-import RocketReleaseLab from 'public/rocket-release-ani.gif'
-import RocketReleaseSocialLab from 'public/rocket-release-social-ani.gif'
-import TitlecardLab from 'public/titlecard-intro-tms-ani.gif'
-import AgencyAnatomyLab from 'public/agency-anatomy-social-ani.gif'
-import IntroCard21Lab from 'public/21c-intro-card-ani.gif'
-import AgencyFourthLab from 'public/agency-fourth-social-ani.gif'
-import AgencyInsideOutLab from 'public/agency-insideout-social-ani.gif'
-import AgencyMtmLab from 'public/agency-mtm-social-ani.gif'
-import AgencySeoLab from 'public/agency-seo-social-ani.gif'
-import AgencySnapLab from 'public/agency-snapchatar-social-ani.gif'
-import CanniblissLab from 'public/cannibliss-ani.gif'
 import Lab3 from "public/Lab3.png"
 import Lab4 from "public/Lab4.png"
 import Lab5 from "public/Lab5.png"
@@ -78,11 +65,6 @@ export const LabArray =
         title: 'Lab2',
     },
     {
-        id: 102,
-        img: MintLab,
-        title: 'Lab102',
-    },
-    {
         id: 3,
         img: Lab3,
         title: 'Lab3',
@@ -98,11 +80,6 @@ export const LabArray =
         title: 'Lab5'
     },
     {
-        id: 112,
-        img: AgencySeoLab,
-        title: 'Lab112',
-    },
-    {
         id: 6,
         img: Lab6,
         title: 'Lab6',
@@ -116,11 +93,6 @@ export const LabArray =
         id: 8,
         img: Lab8,
         title: 'Lab8',
-    },
-    {
-        id: 110,
-        img: AgencyInsideOutLab,
-        title: 'Lab110',
     },
     {
         id: 9,
@@ -153,11 +125,6 @@ export const LabArray =
         title: 'Lab14',
     },
     {
-        id: 103,
-        img: NhLab,
-        title: 'Lab103',
-    },
-    {
         id: 15,
         img: Lab15,
         title: 'Lab15'
@@ -178,11 +145,6 @@ export const LabArray =
         title: 'Lab18',
     },
     {
-        id: 104,
-        img: RocketReleaseLab,
-        title: 'Lab104',
-    },
-    {
         id: 19,
         img: Lab19,
         title: 'Lab19',
@@ -201,11 +163,6 @@ export const LabArray =
         id: 22,
         img: Lab22,
         title: 'Lab22',
-    },
-    {
-        id: 114,
-        img: CanniblissLab,
-        title: 'Lab114',
     },
     {
         id: 23,
@@ -238,11 +195,6 @@ export const LabArray =
         title: 'Lab28',
     },
     {
-        id: 113,
-        img: AgencySnapLab,
-        title: 'Lab113',
-    },
-    {
         id: 29,
         img: Lab29,
         title: 'Lab29',
@@ -266,11 +218,6 @@ export const LabArray =
         id: 33,
         img: Lab33,
         title: 'Lab33',
-    },
-    {
-        id: 111,
-        img: AgencyMtmLab,
-        title: 'Lab111',
     },
     {
         id: 34,
@@ -298,11 +245,6 @@ export const LabArray =
         title: 'Lab38',
     },
     {
-        id: 105,
-        img: RocketReleaseSocialLab,
-        title: 'Lab105',
-    },
-    {
         id: 39,
         img: Lab39,
         title: 'Lab39',
@@ -321,11 +263,6 @@ export const LabArray =
         id: 42,
         img: Lab42,
         title: 'Lab42',
-    },
-    {
-        id: 106,
-        img: TitlecardLab,
-        title: 'Lab106',
     },
     {
         id: 43,
@@ -348,16 +285,6 @@ export const LabArray =
         title: 'Lab46',
     },
     {
-        id: 107,
-        img: AgencyAnatomyLab,
-        title: 'Lab107',
-    },
-    {
-        id: 108,
-        img: IntroCard21Lab,
-        title: 'Lab108',
-    },
-    {
         id: 47,
         img: Lab47,
         title: 'Lab47',
@@ -376,11 +303,6 @@ export const LabArray =
         id: 52,
         img: Lab52,
         title: 'Lab52',
-    },
-    {
-        id: 109,
-        img: AgencyFourthLab,
-        title: 'Lab109',
     },
     {
         id: 53,

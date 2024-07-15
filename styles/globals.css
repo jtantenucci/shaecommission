@@ -11,9 +11,6 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-family: "TWKLausanne-400";
-}
 a {
   color: inherit;
   text-decoration: none;
@@ -46,9 +43,16 @@ a {
 }
 
 @font-face {
-  font-family: "georgia bold italic";
-  src: url("/fonts/georgiaz.ttf");
+  font-family: "DMSans";
+  src: url("/fonts/DMSans.ttf");
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans-Italic";
+  src: url("/fonts/DMSans-Italic.ttf");
+  font-style: italic;
   font-display: swap;
 }
 
@@ -81,9 +85,15 @@ a {
 }
 
 @font-face {
-  font-family: "AlteHaasGroteskRegular";
-  src: url("/fonts/AlteHaasGroteskRegular.ttf");
-  font-style: normal;
+  font-family: "TWKLausanne-700";
+  src: url("/fonts/TWKLausanne-700.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaWorld";
+  src: url("/fonts/HelveticaWorld-Regular.ttf");
+  font-style: italic;
   font-weight: 400;
   font-display: swap;
 }

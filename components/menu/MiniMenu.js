@@ -46,7 +46,7 @@ export default function MiniMenu({ color, changedColor }) {
           />
           <AnimatedMenuItem
             id="charcoal-page-minilink"
-            href="/lab"
+            href="/charcoal"
             text="charcoal"
             variant="h3"
             color={color}
