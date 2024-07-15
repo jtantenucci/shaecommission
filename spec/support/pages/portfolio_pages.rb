@@ -1,29 +1,21 @@
 class PortfolioPages
-  def jake_home_page
-    JakeHomePage.new
+  def shae_home_page
+    ShaeHomePage.new
   end
 
-  def jake_info_page
-    JakeInfoPage.new
+  def shae_info_page
+    ShaeInfoPage.new
   end
 
-  def jake_lab_page
-    JakeLabPage.new
+  def shae_charcoal_page
+    ShaeCharcoalPage.new
   end
 
-  def jake_mint_page
-    JakeMintPage.new
+  def shae_photos_page
+    ShaePhotosPage.new
   end
 
-  def jake_rayus_page
-    JakeRayusPage.new
-  end
-
-  def jake_spin_page
-    JakeSpinPage.new
-  end
-
-  def jake_valkyrie_page
-    JakeValkyriePage.new
+  def shae_paint_page
+    ShaePaintPage.new
   end
 end

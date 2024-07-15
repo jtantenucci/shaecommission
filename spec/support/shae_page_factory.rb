@@ -1,114 +1,62 @@
-module JakePageFactory
+module ShaePageFactory
   class << self
     include Capybara::DSL
 
     def visit_pages
       extend RSpec::Matchers
       navigate_info
-      navigate_lab
-      navigate_work_mint
-      navigate_work_valkyrie
-      navigate_work_rayus
-      navigate_work_spin
-      navigate_mint
-      navigate_valkyrie
-      navigate_rayus
-      navigate_spin
+      navigate_charcoal
+      navigate_photos
+      navigate_paint
     end
 
     def navigate_info
       @app = PortfolioPages.new
-      @app.jake_home_page.visit_info
+      @app.shae_home_page.visit_info
       verify_info
     end
 
     def navigate_lab
       @app = PortfolioPages.new
-      @app.jake_home_page.visit_lab
+      @app.shae_home_page.visit_charcoal
       verify_lab
     end
 
-    def navigate_work_mint
+    def navigate_photos
       @app = PortfolioPages.new
-      @app.jake_mint_page.visit_work
-      verify_home
-    end
-
-    def navigate_work_valkyrie
-      @app = PortfolioPages.new
-      @app.jake_valkyrie_page.visit_work
-      verify_home
-    end
-
-    def navigate_work_rayus
-      @app = PortfolioPages.new
-      @app.jake_rayus_page.visit_work
-      verify_home
-    end
-
-    def navigate_work_spin
-      @app = PortfolioPages.new
-      @app.jake_spin_page.visit_work
-      verify_spin
-    end
-
-    def navigate_mint
-      @app = PortfolioPages.new
-      @app.jake_home_page.visit_mint
+      @app.shae_home_page.visit_photos
       verify_mint
     end
 
-    def navigate_valkyrie
+    def navigate_paint
       @app = PortfolioPages.new
-      @app.jake_home_page.visit_valkyrie
+      @app.shae_home_page.visit_paint
       verify_valkyrie
-    end
-
-    def navigate_rayus
-      @app = PortfolioPages.new
-      @app.jake_home_page.visit_rayus
-      verify_rayus
-    end
-
-    def navigate_spin
-      @app = PortfolioPages.new
-      @app.jake_home_page.visit_spin
-      verify_spin
     end
 
     def verify_home
       @app = PortfolioPages.new
-      expect(@app.jake_home_page).to have_title 'Jake LaMothe'
+      expect(@app.shae_home_page).to have_title 'shae overlieden'
     end
 
     def verify_info
       @app = PortfolioPages.new
-      expect(@app.jake_info_page).to have_title 'info - Jake LaMothe'
+      expect(@app.shae_info_page).to have_title 'info - shae overlieden'
     end
 
-    def verify_lab
+    def verify_charcoal
       @app = PortfolioPages.new
-      expect(@app.jake_lab_page).to have_title 'lab - Jake LaMothe'
+      expect(@app.shae_charcoal_page).to have_title 'charcoal - shae overlieden'
     end
 
-    def verify_mint
+    def verify_photos
       @app = PortfolioPages.new
-      expect(@app.jake_mint_page).to have_title 'mint 502 - Jake LaMothe'
+      expect(@app.shae_photos_page).to have_title 'photos - shae overlieden'
     end
 
-    def verify_valkyrie
+    def verify_paint
       @app = PortfolioPages.new
-      expect(@app.jake_valkyrie_page).to have_title 'valkyrie - Jake LaMothe'
-    end
-
-    def verify_rayus
-      @app = PortfolioPages.new
-      expect(@app.jake_rayus_page).to have_title 'rayus - Jake LaMothe'
-    end
-
-    def verify_spin
-      @app = PortfolioPages.new
-      expect(@app.jake_spin_page).to have_title 'spin - Jake LaMothe'
+      expect(@app.shae_paint_page).to have_title 'paint - shae overlieden'
     end
     end
 end
