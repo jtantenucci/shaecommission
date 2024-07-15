@@ -17,7 +17,7 @@ const Fade = React.forwardRef(function Fade(props, ref) {
     from: { opacity: 0 },
     to: { opacity: open ? 1 : 0 },
     onEnter: () => {
-      set(onEnter())
+      set(onEnter());
     },
   }));
 
@@ -53,10 +53,15 @@ export default function SpringMenu({ lab }) {
       <IconButton onClick={handleOpen} aria-label="menu">
         <MenuIcon sx={{ color: lab ? "#fff" : "#000" }} />
       </IconButton>
-      <Dialog fullScreen
+      <Dialog
+        fullScreen
         PaperProps={{
-          sx: { overflowX: "hidden", overflowY: "hidden", background: lab ? "#000" : "#fff" },
-          elevation: 0
+          sx: {
+            overflowX: "hidden",
+            overflowY: "hidden",
+            background: lab ? "#000" : "#fff",
+          },
+          elevation: 0,
         }}
         open={open}
         disableScrollLock={true}
@@ -70,12 +75,18 @@ export default function SpringMenu({ lab }) {
             justifyContent: "center",
             paddingTop: "5px",
             paddingBottom: "5px",
-            marginLeft: '3px',
-            marginTop: '2px',
-            background: lab ? "#000" : "#fff"
+            marginLeft: "3px",
+            marginTop: "2px",
+            background: lab ? "#000" : "#fff",
           }}
         >
-          <IconButton edge="start" color={ lab ? "secondary" : "primary" } onClick={handleClose} aria-label="close" size="small">
+          <IconButton
+            edge="start"
+            color={lab ? "secondary" : "primary"}
+            onClick={handleClose}
+            aria-label="close"
+            size="small"
+          >
             <CloseIcon />
           </IconButton>
         </Box>
@@ -93,17 +104,17 @@ export default function SpringMenu({ lab }) {
             <Trail open={open}>
               <AnimatedMenuItem
                 id="mobile-work-link"
-                color={ lab ? "#fff" : "#000" }
-                changedColor={ lab ? "#fff" : "#000" }
+                color={lab ? "#fff" : "#000"}
+                changedColor={lab ? "#fff" : "#000"}
                 variant="h2"
                 height="7px"
                 href="/"
-                text="work"
+                text="home"
               />
               <AnimatedMenuItem
                 id="mobile-info-link"
-                color={ lab ? "#fff" : "#000" }
-                changedColor={ lab ? "#fff" : "#000" }
+                color={lab ? "#fff" : "#000"}
+                changedColor={lab ? "#fff" : "#000"}
                 variant="h2"
                 height="7px"
                 href="/info"
@@ -111,12 +122,30 @@ export default function SpringMenu({ lab }) {
               />
               <AnimatedMenuItem
                 id="mobile-lab-link"
-                color={ lab ? "#fff" : "#000" }
-                changedColor={ lab ? "#fff" : "#000" }
+                color={lab ? "#fff" : "#000"}
+                changedColor={lab ? "#fff" : "#000"}
                 variant="h2"
                 height="7px"
-                href="/lab"
-                text="lab"
+                href="/charcoal"
+                text="charcoal"
+              />
+              <AnimatedMenuItem
+                id="mobile-lab-link"
+                color={lab ? "#fff" : "#000"}
+                changedColor={lab ? "#fff" : "#000"}
+                variant="h2"
+                height="7px"
+                href="/photos"
+                text="photos"
+              />
+              <AnimatedMenuItem
+                id="mobile-lab-link"
+                color={lab ? "#fff" : "#000"}
+                changedColor={lab ? "#fff" : "#000"}
+                variant="h2"
+                height="7px"
+                href="/paint"
+                text="paint"
               />
             </Trail>
           </Box>
