@@ -59,6 +59,15 @@ export default function MainMenu() {
             variant={columns ? "h2" : "h2"}
             height="10px"
           />
+          <AnimatedMenuItem
+            id="paint-page-link"
+            href="/paint"
+            text="paint"
+            changedColor="#000"
+            color="#FF9999"
+            variant={columns ? "h2" : "h2"}
+            height="10px"
+          />
         </Box>
       </PageAnchorBox>
     </>

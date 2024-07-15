@@ -68,6 +68,18 @@ export default function MiniMenu({ color, changedColor }) {
               paddingRight: "10px",
             }}
           />
+          <AnimatedMenuItem
+            id="paint-page-minilink"
+            href="/paint"
+            text="paint"
+            variant="h3"
+            color={color}
+            changedColor={changedColor}
+            sx={{
+              paddingLeft: "10px",
+              paddingRight: "10px",
+            }}
+          />
         </Box>
       </PageAnchorBox>
     </>

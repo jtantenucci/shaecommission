@@ -75,7 +75,7 @@ export default function Info() {
             text="email link"
           />
         </Box>
-        <PageFooter color="#000" />
+        <PageFooter color="#000" changedColor="#FFF" />
       </Box>
       </Trail2>
     </>

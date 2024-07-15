@@ -47,7 +47,7 @@ export default function Photos() {
           />
         ))}
       </ImageList>
-      <PageFooter color="#fff" changedColor="#fff"></PageFooter>
+      <PageFooter color="#fff" changedColor="#FF9999"></PageFooter>
     </Box>
     </Trail2>
   );

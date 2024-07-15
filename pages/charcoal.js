@@ -1,7 +1,7 @@
 import Trail2 from "components/effects/Trail2";
 import React from "react";
 import ImageList from "@mui/material/ImageList";
-import { LabArray } from "components/LabArray";
+import { CharcoalArray } from "components/CharcoalArray.js";
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import PageHeader from "components/PageHeader";
@@ -37,7 +37,7 @@ export default function Charcoal() {
         cols={columns ? 4 : 2}
         gap={10}
       >
-        {LabArray.map((item) => (
+        {CharcoalArray.map((item) => (
           <ImageBlock
             paddingTop="2px"
             paddingBottom="2px"

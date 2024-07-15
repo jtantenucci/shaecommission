@@ -1,5 +1,5 @@
 import philip from 'public/philip.png';
-
+import photo1 from 'public/photos/photo1.jpg'
 export const MainArray = 
 [
     {
@@ -28,7 +28,7 @@ export const MainArray =
     },
     {
         id: 4,
-        img: philip,
+        img: photo1,
         title: 'photos',
         path: '/photos',
         select: 'photos-image',
