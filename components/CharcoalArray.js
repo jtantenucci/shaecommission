@@ -13,6 +13,9 @@ import Charcoal12 from "public/charcoal/charcoal12.jpg"
 import Charcoal13 from "public/charcoal/charcoal13.jpg"
 import Charcoal14 from "public/charcoal/charcoal14.jpg"
 import Charcoal15 from "public/charcoal/charcoal15.jpg"
+import Charcoal16 from "public/charcoal/charcoal16.png"
+import Charcoal17 from "public/charcoal/charcoal17.png"
+import Charcoal18 from "public/charcoal/charcoal18.png"
 
 
 export const CharcoalArray = 
@@ -91,5 +94,20 @@ export const CharcoalArray =
         id: 15,
         img: Charcoal15,
         title: 'Charcoal15'
+    },
+    {
+        id: 16,
+        img: Charcoal16,
+        title: 'Charcoal16',
+    },
+    {
+        id: 17,
+        img: Charcoal17,
+        title: 'Charcoal17',
+    },
+    {
+        id: 18,
+        img: Charcoal18,
+        title: 'Charcoal18'
     },
 ];

@@ -11,6 +11,7 @@ import HeadComponent from "components/HeadComponent";
 import AnimatedMenuItem from "components/menu/AnimatedMenuItem";
 import AnimatedDownload from "components/menu/AnimatedDownload";
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
+import PageHeader from "components/PageHeader";
 
 export default function Info() {
   const theme = useTheme();
@@ -27,9 +28,8 @@ export default function Info() {
       <Trail2>
       <Box sx={{ backgroundColor: '#ff9999' }}>
         <HeadComponent title="info - shae overlieden" />
-        {columns ? <MiniMenu color="#000" changedColor="#FFF"/> : <Navigation />}
+        {columns ? <MiniMenu color="#000" changedColor="#cce2cb"/> : <Navigation />}
         <Box
-          container
           sx={{
             maxWidth: columns ? "75vw" : "90vw",
             marginLeft: "auto",
@@ -37,6 +37,7 @@ export default function Info() {
             paddingTop: columns ? "50px" : "0px",
           }}
         >
+          <PageHeader color="#cce2cb" title="info" />
           <Typography fontFamily="ApfelGrotezk" fontSize={columns ? 60 : 40}>
             artist-for-hire turned psychology student 🌻 
           </Typography>
@@ -75,7 +76,7 @@ export default function Info() {
             text="email link"
           />
         </Box>
-        <PageFooter color="#000" changedColor="#FFF" />
+        <PageFooter color="#000" changedColor="#cce2cb" />
       </Box>
       </Trail2>
     </>

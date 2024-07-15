@@ -9,6 +9,7 @@ import paint8 from "public/paint/paint8.jpg"
 import paint9 from "public/paint/paint9.jpg"
 import paint10 from "public/paint/paint10.jpg"
 import paint11 from "public/paint/paint11.jpg"
+import paint12 from "public/paint/paint12.jpg"
 
 
 export const PaintArray = 
@@ -67,5 +68,10 @@ export const PaintArray =
         id: 11,
         img: paint11,
         title: 'paint11'
+    },
+    {
+        id: 12,
+        img: paint12,
+        title: 'paint12'
     },
 ];

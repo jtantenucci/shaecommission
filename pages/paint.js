@@ -18,12 +18,12 @@ export default function Paint() {
 
   return (
     <Trail2>
-    <Box sx={{ backgroundColor: '#bfd1d0' }}>
+    <Box sx={{ backgroundColor: '#c39de0' }}>
       <HeadComponent title="paint - shae overlieden" />
-      { columns ? <MiniMenu color="#000" changedColor='#FF9999'/> : <Navigation lab={true} /> }
+      { columns ? <MiniMenu color="#000" changedColor='#fab4e0'/> : <Navigation lab={true} /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
       >
-      <PageHeader color="#000" title="paint" />
+      <PageHeader color="#fab4e0" title="paint" />
       </Box>
       <ImageList
         sx={{
@@ -47,7 +47,7 @@ export default function Paint() {
           />
         ))}
       </ImageList>
-      <PageFooter color="#000" changedColor="#FF9999"></PageFooter>
+      <PageFooter color="#000" changedColor="#fab4e0"></PageFooter>
     </Box>
     </Trail2>
   );

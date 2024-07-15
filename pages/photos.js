@@ -1,7 +1,6 @@
 import Trail2 from "components/effects/Trail2";
 import React from "react";
 import ImageList from "@mui/material/ImageList";
-import { LabArray } from "components/LabArray";
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import PageHeader from "components/PageHeader";
@@ -11,6 +10,7 @@ import MiniMenu from "components/menu/MiniMenu";
 import Navigation from "components/nav/Navigation";
 import HeadComponent from "components/HeadComponent";
 import PageFooter from "components/PageFooter";
+import { PhotoArray } from "components/PhotoArray";
 
 export default function Photos() {
   const theme = useTheme();
@@ -18,12 +18,12 @@ export default function Photos() {
 
   return (
     <Trail2>
-    <Box sx={{ backgroundColor: 'primary.main' }}>
+    <Box sx={{ backgroundColor: '#cce2cb' }}>
       <HeadComponent title="photos - shae overlieden" />
-      { columns ? <MiniMenu color="#fff" changedColor="#FF9999"/> : <Navigation lab={true} /> }
+      { columns ? <MiniMenu color="#000" changedColor="#c39de0"/> : <Navigation lab={true} /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
       >
-      <PageHeader color="#fff" title="photos" />
+      <PageHeader color="#c39de0" title="photos" />
       </Box>
       <ImageList
         sx={{
@@ -37,7 +37,7 @@ export default function Photos() {
         cols={columns ? 4 : 2}
         gap={10}
       >
-        {LabArray.map((item) => (
+        {PhotoArray.map((item) => (
           <ImageBlock
             paddingTop="2px"
             paddingBottom="2px"
@@ -47,7 +47,7 @@ export default function Photos() {
           />
         ))}
       </ImageList>
-      <PageFooter color="#fff" changedColor="#FF9999"></PageFooter>
+      <PageFooter color="#000" changedColor="#c39de0"></PageFooter>
     </Box>
     </Trail2>
   );
