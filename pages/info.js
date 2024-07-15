@@ -37,19 +37,19 @@ export default function Info() {
             paddingTop: columns ? "50px" : "0px",
           }}
         >
-          <Typography fontFamily="CenturySchoolbook" fontSize={columns ? 60 : 40}>
+          <Typography fontFamily="ApfelGrotezk" fontSize={columns ? 60 : 40}>
             artist-for-hire turned psychology student 🌻 
           </Typography>
           <Typography
             sx={{ paddingTop: "50px" }}
-            fontFamily="CenturySchoolbook"
+            fontFamily="ApfelGrotezk"
             fontSize={columns ? 60 : 40}
           >
             charcoal / watercolor / photography
           </Typography>
           <Typography
             sx={{ paddingTop: "50px" }}
-            fontFamily="CenturySchoolbook"
+            fontFamily="ApfelGrotezk"
             fontSize={columns ? 60 : 40}
           >
             email for business inquiries
@@ -70,7 +70,7 @@ export default function Info() {
             color="#000"
             useMui="false"
             sx={{ fontSize: columns ? 60 : 40 }}
-            fontFamily="CenturySchoolbook"
+            fontFamily="ApfelGrotezk"
             href="mailto:shaeschornagel@gmail.com"
             text="email link"
           />

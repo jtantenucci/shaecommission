@@ -43,8 +43,8 @@ a {
 }
 
 @font-face {
-  font-family: "DMSans";
-  src: url("/fonts/DMSans.ttf");
+  font-family: "ApfelGrotezk";
+  src: url("/fonts/ApfelGrotezk.OTF");
   font-style: normal;
   font-display: swap;
 }
