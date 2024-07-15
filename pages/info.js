@@ -9,19 +9,11 @@ import Navigation from "components/nav/Navigation";
 import PageFooter from "components/PageFooter";
 import HeadComponent from "components/HeadComponent";
 import AnimatedMenuItem from "components/menu/AnimatedMenuItem";
-import AnimatedDownload from "components/menu/AnimatedDownload";
-import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import PageHeader from "components/PageHeader";
 
 export default function Info() {
   const theme = useTheme();
   const columns = useMediaQuery(theme.breakpoints.up("md"));
-  const onDownload = () => {
-    const link = document.createElement("a");
-    link.download = `JLResume.pdf`;
-    link.href = "./JLResume.pdf";
-    link.click();
-  };
 
   return (
     <>
