@@ -1,10 +1,10 @@
 class ShaeHomePage < SitePrism::Page
   set_url('/')
   element :title, 'shae overlieden'
-  element :info_link, "h2[id='info-page-link']"
-  element :charcoal_link, "h2[id='charcoal-page-link']"
-  element :photos_link, "h2[id='photos-page-link']"
-  element :paint_link, "h2[id='paint-page-link']"
+  element :info_link, "h2[text='info']"
+  element :charcoal_link, "h2[text='charcoal']"
+  element :photos_link, "h2[text='photos']"
+  element :paint_link, "h2[text='paint']"
 
   def navigate_info
     extend RSpec::Matchers
