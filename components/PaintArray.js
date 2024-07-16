@@ -10,7 +10,10 @@ import paint9 from "public/paint/paint9.jpg"
 import paint10 from "public/paint/paint10.jpg"
 import paint11 from "public/paint/paint11.jpg"
 import paint12 from "public/paint/paint12.jpg"
-
+import paint13 from "public/paint/paint13.jpg"
+import paint14 from "public/paint/paint14.jpg"
+import paint15 from "public/paint/paint15.jpg"
+import paint16 from "public/paint/paint16.jpg"
 
 export const PaintArray = 
 [
@@ -73,5 +76,25 @@ export const PaintArray =
         id: 12,
         img: paint12,
         title: 'paint12'
+    },
+    {
+        id: 13,
+        img: paint13,
+        title: 'paint13'
+    },
+    {
+        id: 14,
+        img: paint14,
+        title: 'paint14'
+    },
+    {
+        id: 15,
+        img: paint15,
+        title: 'paint15'
+    },
+    {
+        id: 16,
+        img: paint16,
+        title: 'paint16'
     },
 ];
