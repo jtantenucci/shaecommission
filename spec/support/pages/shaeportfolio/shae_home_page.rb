@@ -1,4 +1,4 @@
-class shae_home_page < SitePrism::Page
+class ShaeHomePage < SitePrism::Page
   set_url('/')
   element :title, 'shae overlieden'
   element :info_link, "h2[id='info-page-link']"
