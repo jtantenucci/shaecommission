@@ -6,7 +6,7 @@ export default function HeadComponent({ title }) {
     <Head>
       <title>{title}</title>
       <meta name="description" content="art direction/graphic design" />
-      <link rel="icon" href="/Scribble.ico" />
+      <link rel="icon" href="/cat.ico" />
     </Head>
   );
 }
