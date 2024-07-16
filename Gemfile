@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.3'
+ruby '3.0.0'
 
 abort 'Bundler version >= 2.1.4 is required' if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('2.1.4')
 
