@@ -19,19 +19,19 @@ module ShaePageFactory
     def navigate_lab
       @app = PortfolioPages.new
       @app.shae_home_page.navigate_charcoal
-      verify_lab
+      verify_charcoal
     end
 
     def navigate_photos
       @app = PortfolioPages.new
       @app.shae_home_page.navigate_photos
-      verify_mint
+      verify_photos
     end
 
     def navigate_paint
       @app = PortfolioPages.new
       @app.shae_home_page.navigate_paint
-      verify_valkyrie
+      verify_paint
     end
 
     def verify_home
