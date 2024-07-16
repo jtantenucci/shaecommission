@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useTrail, a } from '@react-spring/web'
+import { useTrail, a } from 'react-spring'
 
 export default function Trail ({ open, children }) {
     const items = React.Children.toArray(children)
