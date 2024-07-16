@@ -4,7 +4,7 @@ import SpringMenu from "./SpringMenu";
 import { AppBar } from "@mui/material";
 import PageAnchorBox from "components/PageAnchorBox";
 
-export default function Navigation({ lab, color }) {
+export default function Navigation({ lab, color, changedColor }) {
   const theme = useTheme();
   Navigation.defaultProps = {
     lab: false
@@ -26,7 +26,7 @@ export default function Navigation({ lab, color }) {
           flexDirection: "row",
         }}
       >
-        <SpringMenu lab={lab} color={color} />
+        <SpringMenu lab={lab} color={color} changedColor={changedColor} />
       </AppBar>
     </>
   );

@@ -35,7 +35,7 @@ Fade.propTypes = {
   onExited: PropTypes.func,
 };
 
-export default function SpringMenu({ lab }) {
+export default function SpringMenu({ lab, color, changedColor }) {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const preventDefault = (event) => event.preventDefault();
@@ -51,7 +51,7 @@ export default function SpringMenu({ lab }) {
   return (
     <div id="mobile-menu">
       <IconButton onClick={handleOpen} aria-label="menu">
-        <MenuIcon sx={{ color: lab ? "#fff" : "#000" }} />
+        <MenuIcon sx={{ color }} />
       </IconButton>
       <Dialog
         fullScreen
@@ -104,8 +104,8 @@ export default function SpringMenu({ lab }) {
             <Trail open={open}>
               <AnimatedMenuItem
                 id="mobile-work-link"
-                color={lab ? "#fff" : "#000"}
-                changedColor={lab ? "#fff" : "#000"}
+                color={color}
+                changedColor={changedColor}
                 variant="h2"
                 height="7px"
                 href="/"
@@ -113,8 +113,8 @@ export default function SpringMenu({ lab }) {
               />
               <AnimatedMenuItem
                 id="mobile-info-link"
-                color={lab ? "#fff" : "#000"}
-                changedColor={lab ? "#fff" : "#000"}
+                color={color}
+                changedColor={changedColor}
                 variant="h2"
                 height="7px"
                 href="/info"
@@ -122,8 +122,8 @@ export default function SpringMenu({ lab }) {
               />
               <AnimatedMenuItem
                 id="mobile-lab-link"
-                color={lab ? "#fff" : "#000"}
-                changedColor={lab ? "#fff" : "#000"}
+                color={color}
+                changedColor={changedColor}
                 variant="h2"
                 height="7px"
                 href="/charcoal"
@@ -131,8 +131,8 @@ export default function SpringMenu({ lab }) {
               />
               <AnimatedMenuItem
                 id="mobile-lab-link"
-                color={lab ? "#fff" : "#000"}
-                changedColor={lab ? "#fff" : "#000"}
+                color={color}
+                changedColor={changedColor}
                 variant="h2"
                 height="7px"
                 href="/photos"
@@ -140,8 +140,8 @@ export default function SpringMenu({ lab }) {
               />
               <AnimatedMenuItem
                 id="mobile-lab-link"
-                color={lab ? "#fff" : "#000"}
-                changedColor={lab ? "#fff" : "#000"}
+                color={color}
+                changedColor={changedColor}
                 variant="h2"
                 height="7px"
                 href="/paint"

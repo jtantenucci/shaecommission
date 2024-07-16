@@ -20,7 +20,7 @@ export default function Charcoal() {
     <Trail2>
     <Box sx={{ backgroundColor: 'primary.main' }}>
       <HeadComponent title="charcoal - shae overlieden" />
-      { columns ? <MiniMenu color="#fff" changedColor="#db3832"/> : <Navigation lab={true} /> }
+      { columns ? <MiniMenu color="#fff" changedColor="#db3832"/> : <Navigation color="#000" changedColor="#db3832"/> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
       >
       <PageHeader color="#fff" title="charcoal" />

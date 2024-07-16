@@ -19,7 +19,7 @@ export default function Work() {
   return (
     <>
     <Trail2>
-    { columns ? <MainMenu /> : <Navigation /> }
+    { columns ? <MainMenu /> : <Navigation color="#000" changedColor='#fab4e0'/> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
         <Typography variant="h4" sx={{ justifySelf: "start" }}>
            

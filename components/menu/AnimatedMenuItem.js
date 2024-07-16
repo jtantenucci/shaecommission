@@ -32,11 +32,11 @@ export default function AnimatedMenuItem({
   }));
 
   const MouseEnter = () => {
-    set({ color: changedColor, width: changedWidth });
+    set({ color: changedColor });
   };
 
   const MouseLeave = () => {
-    set({ color: color, width: "0%" });
+    set({ color: color });
   };
 
   const AnimatedLink = animated(Typography);
@@ -46,7 +46,7 @@ export default function AnimatedMenuItem({
   return (
     <>
       {useMui ? 
-        <div style={{ position: "relative", display: "inline-block" }}>
+      <>
         <MuiLink href={href}>
         <AnimatedLink
           sx={sx}
@@ -79,9 +79,9 @@ export default function AnimatedMenuItem({
             background: properties.color,
           }}
         />
-      </div>
+      </>
       :
-      <div style={{ position: "relative", display: "inline-block" }}>
+      <>
       <Link passHref href={href}>
         <AnimatedLink
           id={id}
@@ -114,7 +114,7 @@ export default function AnimatedMenuItem({
             background: properties.color,
           }}
         />
-      </div>}
+      </>}
     </>
   );
 }

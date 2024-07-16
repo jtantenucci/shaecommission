@@ -23,7 +23,7 @@ export default function Info() {
           {columns ? (
             <MiniMenu color="#000" changedColor="#cce2cb" />
           ) : (
-            <Navigation />
+            <Navigation color="#000" changedColor="#cce2cb"/>
           )}
           <Box
             sx={{

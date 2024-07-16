@@ -20,7 +20,7 @@ export default function Paint() {
     <Trail2>
     <Box sx={{ backgroundColor: '#c39de0' }}>
       <HeadComponent title="paint - shae overlieden" />
-      { columns ? <MiniMenu color="#000" changedColor='#fab4e0'/> : <Navigation lab={false} /> }
+      { columns ? <MiniMenu color="#000" changedColor='#fab4e0'/> : <Navigation color="#000" changedColor='#fab4e0' /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
       >
       <PageHeader color="#fab4e0" title="paint" />
