@@ -12,25 +12,25 @@ module ShaePageFactory
 
     def navigate_info
       @app = PortfolioPages.new
-      @app.shae_home_page.visit_info
+      @app.shae_home_page.navigate_info
       verify_info
     end
 
     def navigate_lab
       @app = PortfolioPages.new
-      @app.shae_home_page.visit_charcoal
+      @app.shae_home_page.navigate_charcoal
       verify_lab
     end
 
     def navigate_photos
       @app = PortfolioPages.new
-      @app.shae_home_page.visit_photos
+      @app.shae_home_page.navigate_photos
       verify_mint
     end
 
     def navigate_paint
       @app = PortfolioPages.new
-      @app.shae_home_page.visit_paint
+      @app.shae_home_page.navigate_paint
       verify_valkyrie
     end
 
