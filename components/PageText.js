@@ -13,7 +13,7 @@ export default function PageText({ text, marginLeft, marginRight, maxWidth, padd
     maxWidth: "50vw",
     paddingTop: "50px",
     paddingBottom: "50px",
-    fontFamily: "TWKLausanne-300"
+    fontFamily: "ApfelGrotezk"
   }
 
   return (      

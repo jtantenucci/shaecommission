@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSpring, animated, config } from "react-spring";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Link from '@mui/material/Link';
-import Typography from "@mui/material/Typography";
 
 export default function AnimatedDownload({
   onClick,
