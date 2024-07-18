@@ -1,13 +1,13 @@
-import philip from 'public/philip.png';
-import photo1 from 'public/photos/photo1.jpg'
-import charcoal5 from 'public/charcoal/charcoal5.jpg'
-import paint12 from 'public/paint/paint12.jpg'
+import philip1 from 'public/philip1.jpg';
+import philip2 from 'public/philip2.jpg';
+import philip3 from 'public/philip3.jpg';
+import philip4 from 'public/philip4.jpg';
 
 export const MainArray = 
 [
     {
         id: 1,
-        img: philip,
+        img: philip1,
         title: 'info',
         path: '/info',
         select: 'info-image',
@@ -15,7 +15,7 @@ export const MainArray =
     },
     {
         id: 2,
-        img: charcoal5,
+        img: philip2,
         title: 'charcoal',
         path: '/charcoal',
         select: 'charcoal-image',
@@ -23,7 +23,7 @@ export const MainArray =
     },
     {
         id: 3,
-        img: photo1,
+        img: philip3,
         title: 'photos',
         path: '/photos',
         select: 'photos-image',
@@ -31,7 +31,7 @@ export const MainArray =
     },
     {
         id: 4,
-        img: paint12,
+        img: philip4,
         title: 'paint',
         path: '/paint',
         select: 'paint-image',
