@@ -31,6 +31,7 @@ export default function Info() {
               marginLeft: "auto",
               marginRight: "auto",
               paddingTop: columns ? "50px" : "0px",
+              paddingLeft: "0px"
             }}
           >
             <PageHeader color="#cce2cb" title="info" />

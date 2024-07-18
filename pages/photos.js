@@ -21,7 +21,7 @@ export default function Photos() {
     <Box sx={{ backgroundColor: '#cce2cb' }}>
       <HeadComponent title="photos - shae overlieden" />
       { columns ? <MiniMenu color="#000" changedColor="#c39de0"/> : <Navigation color="#000" changedColor="#c39de0" /> }
-      <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
+      <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start", paddingLeft: "0px" }}
       >
       <PageHeader color="#c39de0" title="photos" />
       </Box>

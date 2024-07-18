@@ -21,7 +21,7 @@ export default function Charcoal() {
     <Box sx={{ backgroundColor: 'primary.main' }}>
       <HeadComponent title="charcoal - shae overlieden" />
       { columns ? <MiniMenu color="#fff" changedColor="#db3832"/> : <Navigation color="#000" changedColor="#db3832"/> }
-      <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start" }}
+      <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start", paddingLeft: "0px"}}
       >
       <PageHeader color="#fff" title="charcoal" />
       </Box>
