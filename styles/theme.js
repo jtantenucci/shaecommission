@@ -59,7 +59,7 @@ let theme = createTheme ({
       ].join(','),
       h1: {
         fontFamily: 'ApfelGrotezk',
-        fontSize: '11rem',
+        fontSize: '10rem',
         letterSpacing: "-5px",
         fontWeight:600,
       },
