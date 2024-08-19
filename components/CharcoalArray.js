@@ -16,12 +16,18 @@ import Charcoal15 from "public/charcoal/charcoal15.jpg"
 import Charcoal16 from "public/charcoal/charcoal16.png"
 import Charcoal17 from "public/charcoal/charcoal17.png"
 import Charcoal18 from "public/charcoal/charcoal18.png"
+import CharcoalGif from 'public/charcoal/charcoalgif.gif'
 
 
 export const CharcoalArray = 
 [
     {
         id: 1,
+        img: CharcoalGif,
+        title: 'Charcoal1'
+    },
+    {
+        id: 20,
         img: Charcoal1,
         title: 'Charcoal1'
     },
