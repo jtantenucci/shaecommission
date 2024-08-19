@@ -60,7 +60,7 @@ let theme = createTheme ({
       h1: {
         fontFamily: 'ApfelGrotezk',
         fontSize: '10rem',
-        letterSpacing: "-5px",
+        letterSpacing: "0px",
         fontWeight:600,
       },
       h2: {
