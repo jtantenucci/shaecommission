@@ -8,7 +8,6 @@ import photos7 from "public/photos/photos7.jpg"
 import photos8 from "public/photos/photos8.jpg"
 import photos9 from "public/photos/photos9.jpg"
 import photos10 from "public/photos/photos10.png"
-import photos11 from "public/photos/photos11.JPG"
 import photos12 from "public/photos/photos12.jpg"
 import photos13 from "public/photos/photos13.jpg"
 import photos14 from "public/photos/photos14.jpg"
@@ -71,11 +70,6 @@ export const PhotoArray =
         id: 10,
         img: photos10,
         title: 'photos10'
-    },
-    {
-        id: 11,
-        img: photos11,
-        title: 'photos11'
     },
     {
         id: 12,

@@ -23,11 +23,6 @@ export const CharcoalArray =
 [
     {
         id: 1,
-        img: CharcoalGif,
-        title: 'Charcoal1'
-    },
-    {
-        id: 20,
         img: Charcoal1,
         title: 'Charcoal1'
     },
@@ -58,8 +53,8 @@ export const CharcoalArray =
     },
     {
         id: 7,
-        img: Charcoal7,
-        title: 'Charcoal7',
+        img: CharcoalGif,
+        title: 'CharcoalGif',
     },
     {
         id: 8,
