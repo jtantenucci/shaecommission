@@ -19,7 +19,7 @@ export default function Info() {
     <>
       <Trail2>
         <Box sx={{ backgroundColor: "#ff9999" }}>
-          <HeadComponent title="info - shae overlieden" />
+          <HeadComponent title="info - shae schornagel" />
           {columns ? (
             <MiniMenu color="#000" changedColor="#cce2cb" />
           ) : (
@@ -36,7 +36,7 @@ export default function Info() {
           >
             <PageHeader color="#cce2cb" title="info" />
             <Typography fontFamily="ApfelGrotezk" fontSize={columns ? 60 : 40}>
-              artist-for-hire turned psychology student 🌻
+              artist-for-hire and an MAMFT student 🌻
             </Typography>
             <Typography
               sx={{ paddingTop: "50px" }}

@@ -19,7 +19,7 @@ export default function Paint() {
   return (
     <Trail2>
     <Box sx={{ backgroundColor: '#c39de0' }}>
-      <HeadComponent title="paint - shae overlieden" />
+      <HeadComponent title="paint - shae schornagel" />
       { columns ? <MiniMenu color="#000" changedColor='#fab4e0'/> : <Navigation color="#000" changedColor='#fab4e0' /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start", paddingLeft: "0px" }}
       >

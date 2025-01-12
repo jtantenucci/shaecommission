@@ -19,7 +19,7 @@ export default function Charcoal() {
   return (
     <Trail2>
     <Box sx={{ backgroundColor: 'primary.main' }}>
-      <HeadComponent title="charcoal - shae overlieden" />
+      <HeadComponent title="charcoal - shae schornagel" />
       { columns ? <MiniMenu color="#fff" changedColor="#db3832"/> : <Navigation color="#000" changedColor="#db3832"/> }
       <Box sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start", paddingLeft: "0px"}}
       >

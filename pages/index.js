@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>shae overlieden</title>
+        <title>shae schornagel</title>
         <meta name="description" content="fine artist/art direction/photographer" />
         <link rel="icon" href="/cat.ico" />
       </Head>

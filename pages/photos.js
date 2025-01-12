@@ -19,7 +19,7 @@ export default function Photos() {
   return (
     <Trail2>
     <Box sx={{ backgroundColor: '#cce2cb' }}>
-      <HeadComponent title="photos - shae overlieden" />
+      <HeadComponent title="photos - shae schornagel" />
       { columns ? <MiniMenu color="#000" changedColor="#c39de0"/> : <Navigation color="#000" changedColor="#c39de0" /> }
       <Box container sx={{ marginLeft: "auto", marginRight: "auto", width: "90vw", display: "flex", flexDirection: "column", justifyContent: "flex-start", paddingLeft: "0px" }}
       >
